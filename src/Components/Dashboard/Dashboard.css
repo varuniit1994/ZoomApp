@@ -1,0 +1,19 @@
+.IconActivate{
+    color:"#218c74"
+}
+.image-wrapper{
+    /* vertical-align: top; */
+display: inline-block;
+/* text-align: center; */
+/* width: 1 ; */
+
+}
+.divstyle {
+position: absolute ;
+ /* display: block; */
+}
+.ImageStyle{
+    min-width:26px ;
+    max-width: 26px;
+    
+}

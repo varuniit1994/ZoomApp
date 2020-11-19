@@ -1,0 +1,173 @@
+@import '../shared.scss';
+
+.payment-modal{
+  max-width:487px !important;
+}
+
+#payment-modal{
+  .payment-method-select{
+    cursor:pointer;
+    width:100%;
+    border: 1px solid $grey4;
+    border-radius: 6px;
+    height:44px;
+    
+    padding:10px 12px;
+    .exp{
+      margin-right:25px;
+    }
+    img.dropdown{
+      width:24px;
+      position:absolute;
+      top:10px;
+      right:18px;
+    }
+  }
+  .payment-method-dropdown{
+    cursor:pointer;
+    width:calc(100% - 30px);
+    border: 1px solid $grey4;
+    border-radius: 6px;
+    position:absolute;
+    top:44px;
+    z-index:5;
+    .payment-method-option{
+      padding:10px 12px;
+    }
+    .custom-option{
+      padding:10px;
+    }
+    .add-new-payment-option{
+      padding:10px;
+      padding-left:20px;
+    }
+  }
+  #donate-page{
+    padding:35px;
+    .dollar-sign{
+      position:absolute;
+      left:0px;
+      font-weight:300;
+      font-size:18px;
+      top:9px;
+    }
+  }
+
+  .main-form{
+    padding:42px 36px 12px 36px;
+    border-bottom:1px solid $grey4;
+    margin-bottom:20px;
+  }
+  .container-fluid{
+    padding:0px;
+  }
+  
+  h2{
+    font-weight:500;
+    text-align:center;
+    margin-bottom:30px;
+  }
+  input:focus{
+    outline:none !important;
+    border:1px solid $blue !important;
+  }
+  input[type=text], input[type=number]{
+    border: 1px solid $grey4 !important;
+    border-radius: 6px;
+    width:100%;
+    height:44px;
+    line-height:44px;
+    padding-left:12px;
+    padding-right:12px;
+  }
+  .StripeElement{
+    border: 1px solid $grey4 !important;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 6px;
+  }
+  .StripeElement--focus{
+    border:1px solid $blue !important;
+  }
+  .field-label{
+    font-size:12px;
+    color:$grey2;
+    margin-bottom:9px;
+  }
+  .buttons{
+    padding-left:36px;
+    padding-right:36px;
+    padding-bottom:36px;
+    padding-top:15px;
+  }
+  .cancel-button, .back-button{
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    border: 1px solid #EAE9E9;
+    border-radius: 6px;
+    cursor:pointer;
+  }
+  .next-button, .confirm-button{
+    cursor:pointer;
+    height:44px;
+    line-height:44px;
+    text-align:center;
+    background:$blue;
+    width:100%;
+    border-radius: 6px; 
+  }
+
+  .payment-method-select-container{
+    .custom-option{
+      display:flex;
+      justify-content:space-between;
+    }
+    .css-1uccc91-singleValue{
+      width:90%;
+    }
+    .last-four{
+      display:inline-block;
+    }
+    .exp{
+      line-height:27px;
+    }
+  }
+
+  .summary{
+    border-bottom:1px solid $grey4;
+    margin-bottom:20px;
+    h4{
+      margin-top:0px;
+    }
+  }
+  .with{
+    font-size:14px;
+  }
+  .spinner-grow{
+    color:$blue;
+  }
+  .payment-select div{
+    background:white !important;
+    color:$black;
+  }
+  .css-26l3qy-menu{
+    margin-top:0px !important;
+  }
+  .payment-select img{
+    width:42px;
+    height:26px;
+    margin-right:5px;
+  }
+  .last-four{
+    line-height:26px;
+  }
+  #payment-confirm{
+    text-align:center;
+    padding:35px;
+    button{
+      margin-top:20px;
+    }
+  }
+}
+

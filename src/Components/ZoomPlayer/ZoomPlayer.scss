@@ -1,0 +1,204 @@
+@import '../shared.scss';
+
+
+.suspension-content-radius, .ant-message{
+    display:none;
+  }
+  .ReactModalPortal{
+    display:none;
+  }
+#zoom-player:hover .mute-icon{
+  // display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+#zoom-player:hover .stop-button{
+  // display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+#zoom-player{
+  .previewing .mute-icon{
+    bottom:10px;
+  }
+
+  .mute-icon{
+    position:absolute;
+    bottom:45px;
+    left:10px;
+    width:30px;
+    height:30px;
+    z-index:4;
+    cursor: pointer;
+    // display:none;
+    // visibility: hidden;
+    // opacity: 0;
+    // transition: visibility 0.5s, opacity 0.5s linear;
+  }
+
+  .stop-button{
+    // display:none;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    
+    position:absolute;
+    z-index:10;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    cursor: pointer;
+    width:80px;
+    height:80px;
+  }
+  .play-button{
+    margin-left:auto;
+    margin-right:auto;
+    cursor: pointer;
+    width:80px;
+    height:80px;
+  }
+  #zmmtg-root{
+    display: block;
+    position:relative;
+    .title{
+      visibility:hidden;
+    }
+  }
+  .awaiting-meeting-start{
+    color:white;
+    text-align:center;
+    top:40%;
+    width:100%;
+    position:absolute;
+    z-Index:4;
+  }
+
+  .join-session-container{
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    
+  }
+  
+  .zoom-error{
+    background:white;
+    padding:10px;
+    border-radius:10px;
+
+    margin-bottom:20px;
+  }
+  a{
+    color:$black;
+  }
+  .class-zoom{
+    display:block;
+  }
+  .active-user-name{
+    display:none;
+  }
+
+
+  .name-note{
+    position:absolute;
+
+    display:inline-block;
+    bottom:0px;
+    right:0px;
+    font-size:12px;
+    padding-right:10px;
+    padding-left:5px;
+    padding-bottom:3px;
+    background:rgba(250,250,250,0.75);
+    border-radius:5px 0px 0px 0px;
+  }
+
+  .previewing{
+    footer{
+      display:none;
+    }
+    .sharing-indicator{
+      display:none;
+    }
+    #dialog-join{
+      //display:none !important;
+      visibility:hidden;
+    }
+    .meeting-info-icon__icon-wrap, .e2e-encryption-indicator__encrypt-indicator, .show-tip{
+      display:none;
+    }
+    .live-indicator{
+      position:absolute;
+      z-index:1;
+      img{
+        width:101px;
+        height:36px;
+      }
+    }
+  }
+
+
+
+  #zmmtg-root{
+    .meeting-info-icon__icon-wrap, .e2e-encryption-indicator__encrypt-indicator{
+      display:none;
+    }
+
+    
+  }
+  #wc-content{
+    overflow:visible;
+  }
+
+  .footer-button__button, .more-button{
+    visibility:hidden;
+  }
+
+  
+
+  .sharing-outline{
+    border:none;
+    display:none;
+  }
+
+  .suspension-window {
+    transform: translate(-444px, 10px) !important;
+  }
+
+  #dialog-invite {
+    display: none;
+  }
+
+
+
+
+
+  .video-background{
+    background:$black;
+  }
+  .people-icon{
+    width:18px;
+  }
+  .viewers-icon{
+    width:18px;
+  }
+  
+}
+
+
+// @media (max-width:576px) {
+//   .wc-container-left > div{
+//     height:100%;
+//   }
+//   .active-main{
+//     height:100%;
+//   }
+
+// }
+

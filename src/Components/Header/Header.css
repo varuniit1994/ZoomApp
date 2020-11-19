@@ -1,0 +1,27 @@
+.MainContainer {
+  background-color:white;
+  box-shadow: 1px 3px 1px #9E9E9E;
+  color: black;
+  align-self: center;
+  justify-content: center; 
+  flex-direction: row;
+}
+.Heading {
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+      /* padding: 0.3em; */
+    /* margin-bottom: 0em; */
+    /* background-color: rgb(192, 45, 26); */
+      display: flex;
+    margin-left: 100px;
+    justify-content: left;
+  }
+  .Search {
+      align-self: center;
+    margin-left: 300px;
+  }
+  .Buttons{
+    align-self: center;
+    margin-left: 10px;
+    /* justify-items: end; */
+  }
